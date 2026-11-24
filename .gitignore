@@ -1,0 +1,45 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Generated files
+**/build/
+**/.gradle/
+*.apk
+*.aab
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials and signing keys
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+key.properties
+secrets.properties
+google-services.json
+*service-account*.json
+
+# System files
+Thumbs.db
